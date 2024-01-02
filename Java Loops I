@@ -18,7 +18,7 @@ public class Solution {
         
         for(int i=1;i<=10;i++){ // for loop
             int result= N * i; // calculates result
-            System.out.println("2 x "+ i + " = " + result);// prints out result in proper format
+            System.out.println( N + " x " + i + " = " + result);// prints out result in proper format
         }
     }
 }
