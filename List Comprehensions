@@ -1,0 +1,13 @@
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
+    resultList=[
+        [i,j,k] # creates  array
+        for i in range (0,x+1) # for loop for x
+        for j in range(0,y+1) # foor loop for y
+        for k in range (0, z+1) # for loop for k 
+        if i+j+k !=n # makes sure it only runs if toatal values are under 
+                    ]
+    print(resultList) # prints the list
